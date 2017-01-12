@@ -1,0 +1,4 @@
+#!/usr/bin/dh-exec
+telegram.svg /opt/telegram/
+telegram.desktop /usr/share/applications/
+${DEB_HOST_ARCH}/Telegram /opt/telegram/

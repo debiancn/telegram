@@ -1,0 +1,17 @@
+Source: telegram
+Section: utils
+Priority: optional
+Maintainer: Boyuan Yang <073plan@gmail.com>
+Build-Depends:
+ debhelper (>= 10),
+ dh-exec,
+Standards-Version: 3.9.8
+Homepage: https://tdesktop.com
+Vcs-Git: https://github.com/debiancn/telegram
+Vcs-Browser: https://github.com/debiancn/telegram
+
+Package: telegram
+Architecture: amd64 i386
+Description: Telegram Instant Messaging Client
+ Telegram is an instant messaging client using telegram service
+ and protocol.
